@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My sample suite]">
+  <test name="Learning Assertions(failed)">
+    <classes>
+      <class name="SeleniumStart.TestNGSample">
+        <methods>
+          <include name="AfterEachMethod"/>
+          <include name="initDriver"/>
+          <include name="quitDriver"/>
+          <include name="testSample"/>
+          <include name="testBeforeEachTest"/>
+          <include name="testSample1"/>
+        </methods>
+      </class> <!-- SeleniumStart.TestNGSample -->
+      <class name="SeleniumStart.DynamicBrowser">
+        <methods>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- SeleniumStart.DynamicBrowser -->
+    </classes>
+  </test> <!-- Learning Assertions(failed) -->
+</suite> <!-- Failed suite [My sample suite] -->

@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >  
+
+<suite name="My sample suite">  
+  <test name="Learning Test" >  
+    <classes>  
+      <class name="SeleniumStart.DynamicBrowser" />  
+    </classes>  
+  </test>  
+  
+  <test name="Learning Assertions">  
+    <classes>  
+      <class name="SeleniumStart.TestNGSample"/>  
+    </classes>  
+  </test>
+ 
+
+</suite> 

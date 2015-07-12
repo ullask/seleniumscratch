@@ -1,0 +1,44 @@
+     [echo] build logged to build_05-07-2015_(20-32-10).log
+init:  duration 0 seconds
+
+setClassPath:
+Property "lib.dir" has not been set
+setClassPath:  duration 0 seconds
+
+BUILD FAILED
+
+C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\build.xml:28: C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\${lib.dir} does not exist.
+	at org.apache.tools.ant.types.AbstractFileSet.getDirectoryScanner(AbstractFileSet.java:484)
+	at org.apache.tools.ant.types.FileSet.iterator(FileSet.java:69)
+	at org.apache.tools.ant.types.resources.Union.getAllResources(Union.java:148)
+	at org.apache.tools.ant.types.resources.Union.getCollection(Union.java:108)
+	at org.apache.tools.ant.types.resources.BaseResourceCollectionContainer.cacheCollection(BaseResourceCollectionContainer.java:263)
+	at org.apache.tools.ant.types.resources.BaseResourceCollectionContainer.iterator(BaseResourceCollectionContainer.java:142)
+	at org.apache.tools.ant.types.Path.iterator(Path.java:707)
+	at org.apache.tools.ant.types.resources.Resources$MyCollection$MyIterator.hasNext(Resources.java:98)
+	at org.apache.tools.ant.util.CollectionUtils.asCollection(CollectionUtils.java:216)
+	at org.apache.tools.ant.types.resources.Resources$MyCollection.getCache(Resources.java:84)
+	at org.apache.tools.ant.types.resources.Resources$MyCollection.iterator(Resources.java:79)
+	at org.apache.tools.ant.types.resources.Resources.iterator(Resources.java:171)
+	at org.apache.tools.ant.types.resources.Union.getAllResources(Union.java:148)
+	at org.apache.tools.ant.types.resources.Union.getCollection(Union.java:108)
+	at org.apache.tools.ant.types.resources.BaseResourceCollectionContainer.cacheCollection(BaseResourceCollectionContainer.java:263)
+	at org.apache.tools.ant.types.resources.BaseResourceCollectionContainer.iterator(BaseResourceCollectionContainer.java:142)
+	at org.apache.tools.ant.taskdefs.PathConvert.execute(PathConvert.java:365)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:292)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at org.apache.tools.ant.Task.perform(Task.java:348)
+	at org.apache.tools.ant.Target.execute(Target.java:435)
+	at org.apache.tools.ant.Target.performTasks(Target.java:456)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1393)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1364)
+	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1248)
+	at org.apache.tools.ant.Main.runBuild(Main.java:851)
+	at org.apache.tools.ant.Main.startAnt(Main.java:235)
+	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:280)
+	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:109)

@@ -1,0 +1,399 @@
+     [echo] build logged to build_05-07-2015_(20-32-47).log
+init:  duration 0 seconds
+
+setClassPath:
+[pathconvert] Set property test.classpath = C:\Users\Ullas\workspace\seleniumws\SeleniumScratch
+setClassPath:  duration 0 seconds
+
+loadTestNG:
+  [taskdef] Could not load definitions from resource testngtasks. It could not be found.
+loadTestNG:  duration 0 seconds
+
+compile:
+     [echo] classpath:C:\Users\Ullas\workspace\seleniumws\SeleniumScratch
+     [echo] compiling..........
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\build.xml:55: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] SeleniumStart\DynamicBrowser.java added as SeleniumStart\DynamicBrowser.class doesn't exist.
+    [javac] SeleniumStart\EmailDataProvider.java added as SeleniumStart\EmailDataProvider.class doesn't exist.
+    [javac] SeleniumStart\TestNGSample.java added as SeleniumStart\TestNGSample.class doesn't exist.
+    [javac] SeleniumStart\mainDynamicBrowser.java added as SeleniumStart\mainDynamicBrowser.class doesn't exist.
+    [javac] Compiling 4 source files to C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\build
+    [javac] Using modern compiler
+    [javac] Compilation arguments:
+'-d'
+'C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\build'
+'-classpath'
+'C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\build;C:\Users\Ullas\workspace\seleniumws\SeleniumScratch;D:\softwares\apache-ant-1.9.4\lib\ant-launcher.jar;D:\softwares\apache-ant-1.9.4\lib\ant-antlr.jar;D:\softwares\apache-ant-1.9.4\lib\ant-apache-bcel.jar;D:\softwares\apache-ant-1.9.4\lib\ant-apache-bsf.jar;D:\softwares\apache-ant-1.9.4\lib\ant-apache-log4j.jar;D:\softwares\apache-ant-1.9.4\lib\ant-apache-oro.jar;D:\softwares\apache-ant-1.9.4\lib\ant-apache-regexp.jar;D:\softwares\apache-ant-1.9.4\lib\ant-apache-resolver.jar;D:\softwares\apache-ant-1.9.4\lib\ant-apache-xalan2.jar;D:\softwares\apache-ant-1.9.4\lib\ant-commons-logging.jar;D:\softwares\apache-ant-1.9.4\lib\ant-commons-net.jar;D:\softwares\apache-ant-1.9.4\lib\ant-jai.jar;D:\softwares\apache-ant-1.9.4\lib\ant-javamail.jar;D:\softwares\apache-ant-1.9.4\lib\ant-jdepend.jar;D:\softwares\apache-ant-1.9.4\lib\ant-jmf.jar;D:\softwares\apache-ant-1.9.4\lib\ant-jsch.jar;D:\softwares\apache-ant-1.9.4\lib\ant-junit.jar;D:\softwares\apache-ant-1.9.4\lib\ant-junit4.jar;D:\softwares\apache-ant-1.9.4\lib\ant-netrexx.jar;D:\softwares\apache-ant-1.9.4\lib\ant-swing.jar;D:\softwares\apache-ant-1.9.4\lib\ant-testutil.jar;D:\softwares\apache-ant-1.9.4\lib\ant.jar;C:\Program Files\Java\jre8\lib\tools.jar'
+'-sourcepath'
+'C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src'
+'-g:none'
+
+The ' characters around the executable and arguments are
+not part of the command.
+    [javac] Files to be compiled:
+    C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java
+    C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\EmailDataProvider.java
+    C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\TestNGSample.java
+    C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\mainDynamicBrowser.java
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java:3: error: package org.openqa.selenium does not exist
+    [javac] import org.openqa.selenium.By;
+    [javac]                           ^
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java:4: error: package org.openqa.selenium does not exist
+    [javac] import org.openqa.selenium.WebDriver;
+    [javac]                           ^
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java:5: error: package org.openqa.selenium does not exist
+    [javac] import org.openqa.selenium.WebElement;
+    [javac]                           ^
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java:6: error: package org.openqa.selenium.chrome does not exist
+    [javac] import org.openqa.selenium.chrome.ChromeDriver;
+    [javac]                                  ^
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java:7: error: package org.openqa.selenium.firefox does not exist
+    [javac] import org.openqa.selenium.firefox.FirefoxDriver;
+    [javac]                                   ^
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java:8: error: package org.openqa.selenium.firefox does not exist
+    [javac] import org.openqa.selenium.firefox.FirefoxProfile;
+    [javac]                                   ^
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java:9: error: package org.openqa.selenium.firefox.internal does not exist
+    [javac] import org.openqa.selenium.firefox.internal.ProfilesIni;
+    [javac]                                            ^
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java:11: error: package org.openqa.selenium.ie does not exist
+    [javac] import org.openqa.selenium.ie.InternetExplorerDriver;
+    [javac]                              ^
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java:12: error: package org.testng.annotations does not exist
+    [javac] import org.testng.annotations.AfterTest;
+    [javac]                              ^
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java:13: error: package org.testng.annotations does not exist
+    [javac] import org.testng.annotations.Test;
+    [javac]                              ^
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java:18: error: cannot find symbol
+    [javac] 	static WebDriver driver= null;
+    [javac] 	       ^
+    [javac]   symbol:   class WebDriver
+    [javac]   location: class DynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java:21: error: cannot find symbol
+    [javac] 	static FirefoxProfile myprof = null;
+    [javac] 	       ^
+    [javac]   symbol:   class FirefoxProfile
+    [javac]   location: class DynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java:62: error: cannot find symbol
+    [javac] 	public static  WebDriver initDriver()
+    [javac] 	               ^
+    [javac]   symbol:   class WebDriver
+    [javac]   location: class DynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java:71: error: cannot find symbol
+    [javac] 	public static  WebDriver getDriver()
+    [javac] 	               ^
+    [javac]   symbol:   class WebDriver
+    [javac]   location: class DynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\EmailDataProvider.java:3: error: package org.testng.annotations does not exist
+    [javac] import org.testng.annotations.DataProvider;
+    [javac]                              ^
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\EmailDataProvider.java:4: error: package org.testng.annotations does not exist
+    [javac] import org.testng.annotations.Test;
+    [javac]                              ^
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\TestNGSample.java:5: error: package org.testng does not exist
+    [javac] import org.testng.Assert;
+    [javac]                  ^
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\TestNGSample.java:6: error: package org.testng does not exist
+    [javac] import org.testng.SkipException;
+    [javac]                  ^
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\TestNGSample.java:7: error: package org.testng.annotations does not exist
+    [javac] import org.testng.annotations.*;
+    [javac] ^
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\TestNGSample.java:8: error: package org.openqa.selenium does not exist
+    [javac] import org.openqa.selenium.*;
+    [javac] ^
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\TestNGSample.java:9: error: package org.openqa.selenium.firefox does not exist
+    [javac] import org.openqa.selenium.firefox.FirefoxDriver;
+    [javac]                                   ^
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\TestNGSample.java:14: error: cannot find symbol
+    [javac] 	WebDriver driver =null;
+    [javac] 	^
+    [javac]   symbol:   class WebDriver
+    [javac]   location: class TestNGSample
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\TestNGSample.java:17: error: cannot find symbol
+    [javac] 	public WebDriver  initDriver() throws InterruptedException 
+    [javac] 	       ^
+    [javac]   symbol:   class WebDriver
+    [javac]   location: class TestNGSample
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\mainDynamicBrowser.java:3: error: package org.openqa.selenium does not exist
+    [javac] import org.openqa.selenium.By;
+    [javac]                           ^
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\mainDynamicBrowser.java:4: error: package org.openqa.selenium does not exist
+    [javac] import org.openqa.selenium.WebDriver;
+    [javac]                           ^
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\mainDynamicBrowser.java:5: error: package org.openqa.selenium does not exist
+    [javac] import org.openqa.selenium.WebElement;
+    [javac]                           ^
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\mainDynamicBrowser.java:6: error: package org.openqa.selenium.chrome does not exist
+    [javac] import org.openqa.selenium.chrome.ChromeDriver;
+    [javac]                                  ^
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\mainDynamicBrowser.java:7: error: package org.openqa.selenium.firefox does not exist
+    [javac] import org.openqa.selenium.firefox.FirefoxDriver;
+    [javac]                                   ^
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\mainDynamicBrowser.java:8: error: package org.openqa.selenium.firefox does not exist
+    [javac] import org.openqa.selenium.firefox.FirefoxProfile;
+    [javac]                                   ^
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\mainDynamicBrowser.java:9: error: package org.openqa.selenium.firefox.internal does not exist
+    [javac] import org.openqa.selenium.firefox.internal.ProfilesIni;
+    [javac]                                            ^
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\mainDynamicBrowser.java:11: error: package org.openqa.selenium.ie does not exist
+    [javac] import org.openqa.selenium.ie.InternetExplorerDriver;
+    [javac]                              ^
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\mainDynamicBrowser.java:12: error: package org.testng.annotations does not exist
+    [javac] import org.testng.annotations.Test;
+    [javac]                              ^
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\mainDynamicBrowser.java:17: error: cannot find symbol
+    [javac] 	static WebDriver driver= null;
+    [javac] 	       ^
+    [javac]   symbol:   class WebDriver
+    [javac]   location: class mainDynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\mainDynamicBrowser.java:20: error: cannot find symbol
+    [javac] 	static FirefoxProfile myprof = null;
+    [javac] 	       ^
+    [javac]   symbol:   class FirefoxProfile
+    [javac]   location: class mainDynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\mainDynamicBrowser.java:49: error: cannot find symbol
+    [javac] 	public static  WebDriver initDriver()
+    [javac] 	               ^
+    [javac]   symbol:   class WebDriver
+    [javac]   location: class mainDynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\mainDynamicBrowser.java:58: error: cannot find symbol
+    [javac] 	public static  WebDriver getDriver()
+    [javac] 	               ^
+    [javac]   symbol:   class WebDriver
+    [javac]   location: class mainDynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java:25: error: cannot find symbol
+    [javac] 	@AfterTest
+    [javac] 	 ^
+    [javac]   symbol:   class AfterTest
+    [javac]   location: class DynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java:38: error: cannot find symbol
+    [javac]    @Test
+    [javac]     ^
+    [javac]   symbol:   class Test
+    [javac]   location: class DynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\EmailDataProvider.java:9: error: cannot find symbol
+    [javac] 	@DataProvider
+    [javac] 	 ^
+    [javac]   symbol:   class DataProvider
+    [javac]   location: class EmailDataProvider
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\EmailDataProvider.java:24: error: cannot find symbol
+    [javac] 	@Test(dataProvider="getData")
+    [javac] 	 ^
+    [javac]   symbol:   class Test
+    [javac]   location: class EmailDataProvider
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\TestNGSample.java:16: error: cannot find symbol
+    [javac] 	@BeforeTest
+    [javac] 	 ^
+    [javac]   symbol:   class BeforeTest
+    [javac]   location: class TestNGSample
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\TestNGSample.java:35: error: cannot find symbol
+    [javac] 	@AfterTest
+    [javac] 	 ^
+    [javac]   symbol:   class AfterTest
+    [javac]   location: class TestNGSample
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\TestNGSample.java:48: error: cannot find symbol
+    [javac] 	@BeforeMethod
+    [javac] 	 ^
+    [javac]   symbol:   class BeforeMethod
+    [javac]   location: class TestNGSample
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\TestNGSample.java:56: error: cannot find symbol
+    [javac] 	@AfterMethod
+    [javac] 	 ^
+    [javac]   symbol:   class AfterMethod
+    [javac]   location: class TestNGSample
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\TestNGSample.java:63: error: cannot find symbol
+    [javac] 	@Test
+    [javac] 	 ^
+    [javac]   symbol:   class Test
+    [javac]   location: class TestNGSample
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\TestNGSample.java:73: error: cannot find symbol
+    [javac] 	@Test
+    [javac] 	 ^
+    [javac]   symbol:   class Test
+    [javac]   location: class TestNGSample
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java:45: error: cannot find symbol
+    [javac] 		WebElement lnkSignin = driver.findElement(By.xpath("//*[@id='gmail-sign-in']"));
+    [javac] 		^
+    [javac]   symbol:   class WebElement
+    [javac]   location: class DynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java:45: error: cannot find symbol
+    [javac] 		WebElement lnkSignin = driver.findElement(By.xpath("//*[@id='gmail-sign-in']"));
+    [javac] 		                                          ^
+    [javac]   symbol:   variable By
+    [javac]   location: class DynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java:51: error: cannot find symbol
+    [javac]         WebElement txtUserName = driver.findElement(By.id("Email"));
+    [javac]         ^
+    [javac]   symbol:   class WebElement
+    [javac]   location: class DynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java:51: error: cannot find symbol
+    [javac]         WebElement txtUserName = driver.findElement(By.id("Email"));
+    [javac]                                                     ^
+    [javac]   symbol:   variable By
+    [javac]   location: class DynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java:53: error: cannot find symbol
+    [javac]         WebElement btnNext  = driver.findElement(By.id("next"));
+    [javac]         ^
+    [javac]   symbol:   class WebElement
+    [javac]   location: class DynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java:53: error: cannot find symbol
+    [javac]         WebElement btnNext  = driver.findElement(By.id("next"));
+    [javac]                                                  ^
+    [javac]   symbol:   variable By
+    [javac]   location: class DynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java:56: error: cannot find symbol
+    [javac] 	    WebElement btnPswd = driver.findElement(By.id("Passwd"));
+    [javac] 	    ^
+    [javac]   symbol:   class WebElement
+    [javac]   location: class DynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java:56: error: cannot find symbol
+    [javac] 	    WebElement btnPswd = driver.findElement(By.id("Passwd"));
+    [javac] 	                                            ^
+    [javac]   symbol:   variable By
+    [javac]   location: class DynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java:76: error: cannot find symbol
+    [javac]      driver = new FirefoxDriver(myprof);	
+    [javac]                   ^
+    [javac]   symbol:   class FirefoxDriver
+    [javac]   location: class DynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java:81: error: cannot find symbol
+    [javac] 		driver = new ChromeDriver();
+    [javac] 		             ^
+    [javac]   symbol:   class ChromeDriver
+    [javac]   location: class DynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java:87: error: cannot find symbol
+    [javac] 		driver = new InternetExplorerDriver();
+    [javac] 		             ^
+    [javac]   symbol:   class InternetExplorerDriver
+    [javac]   location: class DynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java:95: error: cannot find symbol
+    [javac] 		ProfilesIni allprofs= new ProfilesIni();
+    [javac] 		^
+    [javac]   symbol:   class ProfilesIni
+    [javac]   location: class DynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\DynamicBrowser.java:95: error: cannot find symbol
+    [javac] 		ProfilesIni allprofs= new ProfilesIni();
+    [javac] 		                          ^
+    [javac]   symbol:   class ProfilesIni
+    [javac]   location: class DynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\TestNGSample.java:21: error: cannot find symbol
+    [javac] 			driver = new FirefoxDriver();
+    [javac] 			             ^
+    [javac]   symbol:   class FirefoxDriver
+    [javac]   location: class TestNGSample
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\TestNGSample.java:67: error: cannot find symbol
+    [javac] 		driver.findElement(By.xpath("//*[@id='cpayoff1']")).click();
+    [javac] 		                   ^
+    [javac]   symbol:   variable By
+    [javac]   location: class TestNGSample
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\TestNGSample.java:68: error: cannot find symbol
+    [javac] 	    System.out.println("Test 1: Radio button Selected is "+driver.findElement(By.id("cpayoff1")).isSelected());
+    [javac] 	                                                                              ^
+    [javac]   symbol:   variable By
+    [javac]   location: class TestNGSample
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\TestNGSample.java:69: error: cannot find symbol
+    [javac] 		boolean status = driver.findElement(By.id("cpayoff1")).isSelected();
+    [javac] 		                                    ^
+    [javac]   symbol:   variable By
+    [javac]   location: class TestNGSample
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\TestNGSample.java:70: error: cannot find symbol
+    [javac] 		Assert.assertEquals(status, true);
+    [javac] 		^
+    [javac]   symbol:   variable Assert
+    [javac]   location: class TestNGSample
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\TestNGSample.java:78: error: cannot find symbol
+    [javac] 			throw new SkipException("Skipped");
+    [javac] 			          ^
+    [javac]   symbol:   class SkipException
+    [javac]   location: class TestNGSample
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\mainDynamicBrowser.java:32: error: cannot find symbol
+    [javac] 		WebElement lnkSignin = driver.findElement(By.xpath("//*[@id='gmail-sign-in']"));
+    [javac] 		^
+    [javac]   symbol:   class WebElement
+    [javac]   location: class mainDynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\mainDynamicBrowser.java:32: error: cannot find symbol
+    [javac] 		WebElement lnkSignin = driver.findElement(By.xpath("//*[@id='gmail-sign-in']"));
+    [javac] 		                                          ^
+    [javac]   symbol:   variable By
+    [javac]   location: class mainDynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\mainDynamicBrowser.java:38: error: cannot find symbol
+    [javac]         WebElement txtUserName = driver.findElement(By.id("Email"));
+    [javac]         ^
+    [javac]   symbol:   class WebElement
+    [javac]   location: class mainDynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\mainDynamicBrowser.java:38: error: cannot find symbol
+    [javac]         WebElement txtUserName = driver.findElement(By.id("Email"));
+    [javac]                                                     ^
+    [javac]   symbol:   variable By
+    [javac]   location: class mainDynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\mainDynamicBrowser.java:40: error: cannot find symbol
+    [javac]         WebElement btnNext  = driver.findElement(By.id("next"));
+    [javac]         ^
+    [javac]   symbol:   class WebElement
+    [javac]   location: class mainDynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\mainDynamicBrowser.java:40: error: cannot find symbol
+    [javac]         WebElement btnNext  = driver.findElement(By.id("next"));
+    [javac]                                                  ^
+    [javac]   symbol:   variable By
+    [javac]   location: class mainDynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\mainDynamicBrowser.java:43: error: cannot find symbol
+    [javac] 	    WebElement btnPswd = driver.findElement(By.id("Passwd"));
+    [javac] 	    ^
+    [javac]   symbol:   class WebElement
+    [javac]   location: class mainDynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\mainDynamicBrowser.java:43: error: cannot find symbol
+    [javac] 	    WebElement btnPswd = driver.findElement(By.id("Passwd"));
+    [javac] 	                                            ^
+    [javac]   symbol:   variable By
+    [javac]   location: class mainDynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\mainDynamicBrowser.java:63: error: cannot find symbol
+    [javac]      driver = new FirefoxDriver(myprof);	
+    [javac]                   ^
+    [javac]   symbol:   class FirefoxDriver
+    [javac]   location: class mainDynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\mainDynamicBrowser.java:68: error: cannot find symbol
+    [javac] 		driver = new ChromeDriver();
+    [javac] 		             ^
+    [javac]   symbol:   class ChromeDriver
+    [javac]   location: class mainDynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\mainDynamicBrowser.java:74: error: cannot find symbol
+    [javac] 		driver = new InternetExplorerDriver();
+    [javac] 		             ^
+    [javac]   symbol:   class InternetExplorerDriver
+    [javac]   location: class mainDynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\mainDynamicBrowser.java:82: error: cannot find symbol
+    [javac] 		ProfilesIni allprofs= new ProfilesIni();
+    [javac] 		^
+    [javac]   symbol:   class ProfilesIni
+    [javac]   location: class mainDynamicBrowser
+    [javac] C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\src\SeleniumStart\mainDynamicBrowser.java:82: error: cannot find symbol
+    [javac] 		ProfilesIni allprofs= new ProfilesIni();
+    [javac] 		                          ^
+    [javac]   symbol:   class ProfilesIni
+    [javac]   location: class mainDynamicBrowser
+    [javac] 78 errors
+compile:  duration 2 seconds
+
+BUILD FAILED
+
+C:\Users\Ullas\workspace\seleniumws\SeleniumScratch\build.xml:55: Compile failed; see the compiler error output for details.
+	at org.apache.tools.ant.taskdefs.Javac.compile(Javac.java:1180)
+	at org.apache.tools.ant.taskdefs.Javac.execute(Javac.java:935)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:292)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at org.apache.tools.ant.Task.perform(Task.java:348)
+	at org.apache.tools.ant.Target.execute(Target.java:435)
+	at org.apache.tools.ant.Target.performTasks(Target.java:456)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1393)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1364)
+	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1248)
+	at org.apache.tools.ant.Main.runBuild(Main.java:851)
+	at org.apache.tools.ant.Main.startAnt(Main.java:235)
+	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:280)
+	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:109)
